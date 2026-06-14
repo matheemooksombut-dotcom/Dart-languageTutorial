@@ -106,10 +106,24 @@ void main() {
     int process = 1 ; 
 
     do{
-      print("การทำงานรอบที่ : $process");
+      print("การทำงานรอบที่ : $process \n");
       process++ ; 
 
     }while(process <=3);
+
+
+    // EndBreak
+
+    for(int count=1 ;  count<=10 ; count ++){
+      if(count>=5){
+        print("โดยมีการทำงานทั้งหมด ${--count}");
+        break;
+      }
+      
+      print("การทำงานรอบที่ : $count ");
+      
+    }
+    print("จบการทำงาน");
 
     
 
