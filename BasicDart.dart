@@ -144,7 +144,7 @@ void main() {
     var dataB = {10 ,20 , 30 ,40 ,50 ,60}; 
     print(dataA);
     print(dataB);
-    var dataC = dataA.union(dataB);
+    var dataC = dataA.union(dataB); 
     var dataD = dataA.intersection(dataB);
     print("This is a Union Data : ${dataC}");
     print("This is a InterSection : ${dataD} ");
