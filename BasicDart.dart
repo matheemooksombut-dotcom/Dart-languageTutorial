@@ -123,11 +123,32 @@ void main() {
       print("การทำงานรอบที่ : $count ");
       
     }
-    print("จบการทำงาน");
+    print("จบการทำงาน \n");
 
+    // List 
     
+    print("การทำงาน List : \n");
+    var product  = ["iPHONE" , "Computer" , "Keyboard"]; 
 
+    print(" สินค้า : $product \n");
+    print("${product[0]} \n");
+    print("${product[1]} \n");
+    print("${product[2]} \n");
+
+    product.add("Headphone"); 
+    print(" สินค้าอัพเดท : $product \n");
+    print("${product[3]} \n");
+
+    print("การทำงาน SET : \n");
+    var dataA = {10 ,20 , 30 ,40}; 
+    var dataB = {10 ,20 , 30 ,40 ,50 ,60}; 
+    print(dataA);
+    print(dataB);
+    var dataC = dataA.union(dataB);
+    var dataD = dataA.intersection(dataB);
+    print("This is a Union Data : ${dataC}");
+    print("This is a InterSection : ${dataD} ");
+   
   
-
 }
 
